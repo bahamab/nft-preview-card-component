@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 54%, 11%);
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+}
+.main-container {
+  margin: auto;
+  height: 37rem;
+  width: 22rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 0.75rem;
+  display: grid;
+  grid-template-columns: 22rem;
+  grid-template-rows: 21rem 7rem 3rem 6rem;
+}
+
+.nft-pic-container {
+  grid-row: 1;
+  grid-column: 1;
+  height: 19.5rem;
+  margin: auto;
+  margin-top: 1.5rem;
+  border-radius: 0.75rem;
+  background: no-repeat url(./images/icon-view.svg);
+  background-color: hsl(178, 100%, 50%);
+
+  background-position: center;
+  border-radius: 1rem;
+}
+
+.nft-pic {
+  grid-row: 1;
+  grid-column: 1;
+  height: 19.5rem;
+  margin: auto;
+  border-radius: 0.75rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.nft-pic:hover {
+  opacity: 0.4;
+}
+
+.main-h1 {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  margin-left: 1.25rem;
+  font-weight: 600;
+}
+.main-p {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 1.125rem;
+  color: hsl(215, 51%, 70%);
+  width: 20rem;
+  width: 18rem;
+  margin-top: 3.75rem;
+  margin-left: 1.25rem;
+  font-weight: 300;
+}
+
+.price {
+  grid-column: 1;
+  grid-row: 3;
+  margin: auto;
+  margin-left: 2.35rem;
+  width: 16rem;
+  color: hsl(178, 100%, 50%);
+}
+.ethereum-icon {
+  margin: auto;
+  grid-column: 1;
+  grid-row: 3;
+  margin-left: 1.25rem;
+}
+.timer-icon {
+  grid-column: 1;
+  grid-row: 3;
+  margin: auto;
+  padding-top: 0.1rem;
+  margin-left: 14.5rem;
+}
+.time-left {
+  margin: auto;
+  grid-column: 1;
+  grid-row: 3;
+  margin-left: 16rem;
+  margin-right: 0;
+  color: hsl(215, 51%, 70%);
+}
+
+.horizontal-line {
+  grid-column: 1;
+  grid-row: 3;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  width: 86%;
+  margin: auto;
+  margin-top: 3.75rem;
+}
+.avatar-pic {
+  grid-column: 1;
+  grid-row: 4;
+  height: 2.25rem;
+  margin: auto;
+  margin-left: 1.25rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+}
+
+.creator-info {
+  grid-column: 1;
+  grid-row: 4;
+  margin: auto;
+  margin-left: 4.5rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.creator-name {
+  color: hsl(0, 0%, 100%);
+}
