@@ -132,3 +132,12 @@ body {
 .creator-name {
   color: hsl(0, 0%, 100%);
 }
+
+.credit {
+  margin: auto;
+  position: relative;
+  bottom: 2rem;
+}
+.credit a {
+  color: steelblue;
+}
