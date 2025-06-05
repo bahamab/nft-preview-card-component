@@ -13,6 +13,7 @@ body {
   display: grid;
   height: 100vh;
   width: 100vw;
+  padding: 1rem;
 }
 .main-container {
   margin: auto;
@@ -136,8 +137,13 @@ body {
 .credit {
   margin: auto;
   position: relative;
-  bottom: 2rem;
+  bottom: 1rem;
 }
 .credit a {
   color: steelblue;
+}
+@media all and (max-width: 700px) {
+  html {
+    font-size: 14px;
+  }
 }
